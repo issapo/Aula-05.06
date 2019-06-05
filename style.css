@@ -1,0 +1,94 @@
+body{
+    margin: o;
+    display: grid;
+    grid-template-areas:  'naruto naruto naruto naruto'
+                          'sasuke sasuke sasuke sasuke'
+                          'sakura sakura sakura kakashi'
+                          'minato minato minato minato';
+    grid-template-rows: 20vh 15vh 50vh 50vh;
+    grid-template-columns: 25% 25% 20% 30%;
+    background-color: black;
+}
+
+header{
+    grid-area: naruto;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+
+header div{
+    background-color: #8e8a81;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+header img {
+    height: 100px;
+    width: 90px;
+}
+
+nav {
+    grid-area: sasuke;
+    background-color:#e55b0b;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:white;
+    font-weight: bold;
+}
+
+section{
+    align-items: center;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    grid-area: sakura;
+
+}
+section img{
+    width: 200px;
+    padding: 10px;
+    border-radius: 140%;
+}
+section img:hover{
+    width: 300px;
+}
+
+aside{
+    grid-area: kakashi;
+    background-color: green;
+    display: flex;
+    
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    
+}
+aside p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+}
+aside p span{
+    font-style: italic;
+    color: #e55b0b;
+}
+footer{
+    grid-area: minato;
+    background-color: blue;
+}
+
