@@ -87,8 +87,26 @@ aside p span{
     font-style: italic;
     color: #e55b0b;
 }
+
 footer{
     grid-area: minato;
     background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+
+}
+footer div img{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
 }
 
